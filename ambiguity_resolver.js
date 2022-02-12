@@ -1,11 +1,11 @@
 n1=Math.floor(Math.random()*6)+1;
 var diceimg1=document.querySelectorAll("img")[0];
-diceimg1.setAttribute("src","C:\/Users\/dell\/Downloads\/Web-dev\/ambiguity_resolver\/img\/dice"+n1+".png");
+diceimg1.setAttribute("src","img\/dice"+n1+".png");
 
 
 n2=Math.floor(Math.random()*6)+1;
 var diceimg2=document.querySelectorAll("img")[1];
-diceimg2.setAttribute("src","C:\/Users\/dell\/Downloads\/Web-dev\/ambiguity_resolver\/img\/dice"+n2+".png");
+diceimg2.setAttribute("src","img\/dice"+n2+".png");
 
 if(n1>n2)
 {
